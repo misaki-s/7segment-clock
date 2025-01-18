@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="800px" width="800px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 viewBox="0 0 297.503 297.503" xml:space="preserve">
+     <!--
+     A top center
+     B top right
+     C bottom right
+     D bottom center
+     E bottom left
+     F top left
+     G middle center
+     -->
+    <path d="M14 10 L46 10 L50 14 L46 18 L14 18 L10 14 Z" fill="rgba(255, 0, 0, 0.0)" data-segment="A" stroke="#1c1c1c" stroke-width="1"></path>
+    <path d="M50 14 L54 18 L54 46 L50 50 L46 46 L46 18 Z" fill="lightgray" data-segment="B" stroke="#1c1c1c" stroke-width="1"></path>
+    <path d="M50 50 L54 54 L54 82 L50 86 L46 82 L46 54 Z" fill="lightgray" data-segment="C" stroke="#1c1c1c" stroke-width="1"></path>
+    <path d="M14 82 L46 82 L50 86 L46 90 L14 90 L10 86 Z" fill="rgba(255, 0, 0, 0.0)" data-segment="D" stroke="#1c1c1c" stroke-width="1"></path>
+    <path d="M10 50 L14 54 L14 82 L10 86 L6 82 L6 54 Z" fill="rgba(255, 0, 0, 0.0)" data-segment="E" stroke="#1c1c1c" stroke-width="1"></path>
+    <path d="M10 14 L14 18 L14 46 L10 50 L6 46 L6 18 Z" fill="rgba(255, 0, 0, 0.0)" data-segment="F" stroke="#1c1c1c" stroke-width="1"></path>
+    <path d="M14 46 L46 46 L50 50 L46 54 L14 54 L10 50 Z" fill="rgba(255, 0, 0, 0.0)" data-segment="G" stroke="#1c1c1c" stroke-width="1"></path>
+</svg>
