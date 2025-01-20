@@ -6,9 +6,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 25vh;
+    height: 50vh;
     margin: 0;
-    zoom: 400%;
+    zoom: 200%;
 }
 
 #clock {
