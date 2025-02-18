@@ -15,8 +15,24 @@ const SEGMENT_PATTERNS = {
 };
 
 const OFF_FILL_COLOR = "rgba(255, 0, 0, 0.0)";
-const ON_FILL_COLOR = "lightgray";
+const ON_FILL_COLOR = "#363636";
 const OFF_STROKE_COLOR = "#1c1c1c";
+
+// 現在の時間帯に応じて文字色を変更する
+function updateTextColor() {
+    const now = new Date();
+    const hours = now.getHours();
+
+    // 00:00 から 08:00 は暗い灰色、それ以外は白
+    const textColor = (hours >= 0 && hours < 8) ? "#363636" : "#d3d3d3";
+
+    // すべての7セグメントの点灯色を変更
+    window.ON_FILL_COLOR = textColor;
+}
+
+// 1秒ごとに文字色をチェック
+setInterval(updateTextColor, 1000);
+updateTextColor();
 
 // 各桁の7セグメントSVGを生成
 function createSevenSegment(id) {
