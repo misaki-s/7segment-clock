@@ -15,7 +15,8 @@ const SEGMENT_PATTERNS = {
 };
 
 const OFF_FILL_COLOR = "rgba(255, 0, 0, 0.0)";
-const ON_FILL_COLOR = "#363636";
+//const ON_FILL_COLOR = "#363636";
+const ON_FILL_COLOR = "lightgray";
 const OFF_STROKE_COLOR = "#1c1c1c";
 
 // 現在の時間帯に応じて文字色を変更する
@@ -31,8 +32,8 @@ function updateTextColor() {
 }
 
 // 1秒ごとに文字色をチェック
-setInterval(updateTextColor, 1000);
-updateTextColor();
+//setInterval(updateTextColor, 1000);
+//updateTextColor();
 
 // 各桁の7セグメントSVGを生成
 function createSevenSegment(id) {
